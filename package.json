@@ -15,10 +15,12 @@
     "json",
     "missing key"
   ],
-  "main": "index.js",
+  "bin": "./dist/index.js",
   "scripts": {
     "play": "tsx src/index.ts",
-    "prepare": "simple-git-hooks"
+    "prepare": "simple-git-hooks",
+    "build": "tsup",
+    "release": "bumpp --commit \"chore: release v%s\" --push --tag && pnpm publish"
   },
   "dependencies": {
     "chalk": "^5.2.0",
@@ -34,9 +36,11 @@
     "@types/node": "^18.11.18",
     "@types/object-path": "^0.11.1",
     "@types/traverse": "^0.6.32",
+    "bumpp": "^8.2.1",
     "eslint": "^8.33.0",
     "lint-staged": "^13.1.0",
     "simple-git-hooks": "^2.8.1",
+    "tsup": "^6.5.0",
     "tsx": "^3.12.2",
     "typescript": "^4.9.5"
   },
