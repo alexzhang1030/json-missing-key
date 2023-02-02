@@ -13,3 +13,5 @@ json-missing-key --help
 ```
 
 ## Screenshot
+
+![screenshot](./screenshot/screenshot.gif)
