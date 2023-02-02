@@ -12,4 +12,4 @@ p i -g json-missing-key
 json-missing-key --help
 ```
 
-## Snapshot
+## Screenshot
