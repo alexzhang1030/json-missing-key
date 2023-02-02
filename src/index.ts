@@ -10,7 +10,7 @@ const cli = meow(`
     $ json-missing-key <file1> <file2>
 
   Examples
-    $ diff-json-key foo.json bar.json
+    $ json-missing-key foo.json bar.json
 
     foo.json missing keys:
     {
