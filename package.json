@@ -1,7 +1,7 @@
 {
   "name": "json-missing-key",
   "type": "module",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Compares two json files, shows missing keys.",
   "author": "alexzhang1030",
   "license": "MIT",
