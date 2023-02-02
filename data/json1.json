@@ -1,0 +1,15 @@
+{
+  "foo": true,
+  "foo1": {
+    "foo2": {
+      "foo2": false,
+      "foo3": {
+        "foo4": {
+          "foo5": {
+            "bar": true
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "name": "json-missing-key",
+  "type": "module",
+  "version": "0.0.0",
+  "description": "Compares two json files, shows missing keys.",
+  "author": "alexzhang1030",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexzhang1030/json-missing-key.git"
+  },
+  "keywords": [
+    "cli",
+    "diff",
+    "json",
+    "missing key"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "play": "tsx src/index.ts",
+    "prepare": "simple-git-hooks"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "codechalk": "1.0.1-beta.2",
+    "consola": "^2.15.3",
+    "is-object": "^1.0.2",
+    "meow": "^11.0.0",
+    "object-path": "^0.11.8"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.35.1",
+    "@types/is-object": "^1.0.2",
+    "@types/node": "^18.11.18",
+    "@types/object-path": "^0.11.1",
+    "@types/traverse": "^0.6.32",
+    "eslint": "^8.33.0",
+    "lint-staged": "^13.1.0",
+    "simple-git-hooks": "^2.8.1",
+    "tsx": "^3.12.2",
+    "typescript": "^4.9.5"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm exec lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,ts,json,md,yaml,yml}": [
+      "eslint --fix"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "@antfu",
+    "rules": {
+      "no-console": "off"
+    }
+  }
+}
