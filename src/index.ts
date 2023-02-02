@@ -2,10 +2,14 @@ import { readFile } from 'node:fs/promises'
 import { basename, resolve } from 'node:path'
 import meow from 'meow'
 import consola from 'consola'
+import { version } from '../package.json'
 import type { Props } from './types'
 import { compare } from './compare'
 
 const cli = meow(`
+
+  Version ${version}
+
   Usage
     $ json-missing-key <file1> <file2>
 
