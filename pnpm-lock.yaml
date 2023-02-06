@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@antfu/eslint-config': ^0.35.1
   '@types/is-object': ^1.0.2
-  '@types/node': ^18.11.18
+  '@types/node': ^18.11.19
   '@types/object-path': ^0.11.1
   '@types/traverse': ^0.6.32
   bumpp: ^8.2.1
@@ -31,7 +31,7 @@ dependencies:
 devDependencies:
   '@antfu/eslint-config': 0.35.1_4vsywjlpuriuw3tl5oq6zy5a64
   '@types/is-object': 1.0.2
-  '@types/node': 18.11.18
+  '@types/node': 18.11.19
   '@types/object-path': 0.11.1
   '@types/traverse': 0.6.32
   bumpp: 8.2.1
@@ -297,8 +297,8 @@ packages:
     resolution: {integrity: sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==}
     dev: false
 
-  /@types/node/18.11.18:
-    resolution: {integrity: sha512-DHQpWGjyQKSHj3ebjFI/wRKcqQcdR+MoFBygntYOZytCqNfkd2ZC4ARDJ2DQqhjH5p85Nnd3jhUJIXrszFX/JA==}
+  /@types/node/18.11.19:
+    resolution: {integrity: sha512-YUgMWAQBWLObABqrvx8qKO1enAvBUdjZOAWQ5grBAkp5LQv45jBvYKZ3oFS9iKRCQyFjqw6iuEa1vmFqtxYLZw==}
     dev: true
 
   /@types/normalize-package-data/2.4.1:
