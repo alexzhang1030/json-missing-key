@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@antfu/eslint-config': ^0.35.2
   '@types/is-object': ^1.0.2
-  '@types/node': ^18.13.0
+  '@types/node': ^18.14.0
   '@types/object-path': ^0.11.1
   '@types/traverse': ^0.6.32
   bumpp: ^8.2.1
@@ -12,11 +12,11 @@ specifiers:
   consola: ^2.15.3
   eslint: ^8.34.0
   is-object: ^1.0.2
-  lint-staged: ^13.1.1
+  lint-staged: ^13.1.2
   meow: ^11.0.0
   object-path: ^0.11.8
   simple-git-hooks: ^2.8.1
-  tsup: ^6.6.2
+  tsup: ^6.6.3
   tsx: ^3.12.3
   typescript: ^4.9.5
 
@@ -31,14 +31,14 @@ dependencies:
 devDependencies:
   '@antfu/eslint-config': 0.35.2_7kw3g6rralp5ps6mg3uyzz6azm
   '@types/is-object': 1.0.2
-  '@types/node': 18.13.0
+  '@types/node': 18.14.0
   '@types/object-path': 0.11.1
   '@types/traverse': 0.6.32
   bumpp: 8.2.1
   eslint: 8.34.0
-  lint-staged: 13.1.1
+  lint-staged: 13.1.2
   simple-git-hooks: 2.8.1
-  tsup: 6.6.2_typescript@4.9.5
+  tsup: 6.6.3_typescript@4.9.5
   tsx: 3.12.3
   typescript: 4.9.5
 
@@ -495,8 +495,8 @@ packages:
     resolution: {integrity: sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==}
     dev: false
 
-  /@types/node/18.13.0:
-    resolution: {integrity: sha512-gC3TazRzGoOnoKAhUx+Q0t8S9Tzs74z7m0ipwGpSqQrleP14hKxP4/JUeEQcD3W1/aIpnWl8pHowI7WokuZpXg==}
+  /@types/node/18.14.0:
+    resolution: {integrity: sha512-5EWrvLmglK+imbCJY0+INViFWUHg1AHel1sq4ZVSfdcNqGy9Edv3UB9IIzzg+xPaUcAgZYcfVs2fBcwDeZzU0A==}
     dev: true
 
   /@types/normalize-package-data/2.4.1:
@@ -2531,8 +2531,8 @@ packages:
   /lines-and-columns/1.2.4:
     resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==}
 
-  /lint-staged/13.1.1:
-    resolution: {integrity: sha512-LLJLO0Kdbcv2a+CvSF4p1M7jBZOajKSMpBUvyR8+bXccsqPER0/NxTFQSpNHjqwV9kM3tkHczYerTB5wI+bksQ==}
+  /lint-staged/13.1.2:
+    resolution: {integrity: sha512-K9b4FPbWkpnupvK3WXZLbgu9pchUJ6N7TtVZjbaPsoizkqFUDkUReUL25xdrCljJs7uLUF3tZ7nVPeo/6lp+6w==}
     engines: {node: ^14.13.1 || >=16.0.0}
     hasBin: true
     dependencies:
@@ -3549,9 +3549,9 @@ packages:
     resolution: {integrity: sha512-336iVw3rtn2BUK7ORdIAHTyxHGRIHVReokCR3XjbckJMK7ms8FysBfhLR8IXnAgy7T0PTPNBWKiH514FOW/WSg==}
     dev: true
 
-  /tsup/6.6.2_typescript@4.9.5:
-    resolution: {integrity: sha512-+yQ6SI4rVtp1+YpcYOePumJLEVQ896CDNRt9dJ2L/DeMnLf1+FTOCVw5eioLBH0xLdHgogO9NQ6vPNF5MfkSJw==}
-    engines: {node: '>=14'}
+  /tsup/6.6.3_typescript@4.9.5:
+    resolution: {integrity: sha512-OLx/jFllYlVeZQ7sCHBuRVEQBBa1tFbouoc/gbYakyipjVQdWy/iQOvmExUA/ewap9iQ7tbJf9pW0PgcEFfJcQ==}
+    engines: {node: '>=14.18'}
     hasBin: true
     peerDependencies:
       '@swc/core': ^1
