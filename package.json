@@ -35,16 +35,16 @@
     "object-path": "^0.11.8"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.39.8",
+    "@antfu/eslint-config": "^0.40.2",
     "@types/is-object": "^1.0.2",
-    "@types/node": "^18.17.1",
+    "@types/node": "^18.17.5",
     "@types/object-path": "^0.11.1",
     "@types/traverse": "^0.6.32",
     "bumpp": "^9.1.1",
-    "eslint": "^8.46.0",
+    "eslint": "^8.47.0",
     "lint-staged": "^14.0.0",
     "simple-git-hooks": "^2.9.0",
-    "tsup": "^7.1.0",
+    "tsup": "^7.2.0",
     "tsx": "^3.12.7",
     "typescript": "^5.1.6"
   },
