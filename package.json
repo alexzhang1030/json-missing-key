@@ -31,22 +31,22 @@
     "codechalk": "1.0.1-beta.2",
     "consola": "^3.2.3",
     "is-object": "^1.0.2",
-    "meow": "^12.1.0",
+    "meow": "^12.1.1",
     "object-path": "^0.11.8"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.40.2",
+    "@antfu/eslint-config": "^0.41.0",
     "@types/is-object": "^1.0.2",
-    "@types/node": "^18.17.6",
+    "@types/node": "^18.17.12",
     "@types/object-path": "^0.11.1",
     "@types/traverse": "^0.6.32",
     "bumpp": "^9.2.0",
-    "eslint": "^8.47.0",
-    "lint-staged": "^14.0.0",
+    "eslint": "^8.48.0",
+    "lint-staged": "^14.0.1",
     "simple-git-hooks": "^2.9.0",
     "tsup": "^7.2.0",
     "tsx": "^3.12.7",
-    "typescript": "^5.1.6"
+    "typescript": "^5.2.2"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm exec lint-staged"
