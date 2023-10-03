@@ -29,11 +29,11 @@ devDependencies:
     specifier: ^0.43.1
     version: 0.43.1(eslint@8.50.0)(typescript@5.2.2)
   '@types/is-object':
-    specifier: ^1.0.2
-    version: 1.0.2
+    specifier: ^1.0.3
+    version: 1.0.3
   '@types/node':
-    specifier: ^18.17.19
-    version: 18.17.19
+    specifier: ^18.18.3
+    version: 18.18.3
   '@types/object-path':
     specifier: ^0.11.2
     version: 0.11.2
@@ -710,8 +710,8 @@ packages:
       - supports-color
     dev: true
 
-  /@types/is-object@1.0.2:
-    resolution: {integrity: sha512-wm2R0UbJ/JOt4DRtcZz0FtKVtybIJDjAwAXTMWtbcy3gYqpLWgkw5Z7M4FzLIOJDPOnAQKcIhmbScjfyLsrfGQ==}
+  /@types/is-object@1.0.3:
+    resolution: {integrity: sha512-P0f+EnNj1bwpOhmPjqUHWXmsWeT/vhhiIYIdES/IfD+X1lHt6Xn2OCboOqOFXQSpDr7c/JKt1VLAiBHKxbbngA==}
     dev: true
 
   /@types/json-schema@7.0.12:
@@ -724,8 +724,8 @@ packages:
       '@types/unist': 2.0.6
     dev: true
 
-  /@types/node@18.17.19:
-    resolution: {integrity: sha512-+pMhShR3Or5GR0/sp4Da7FnhVmTalWm81M6MkEldbwjETSaPalw138Z4KdpQaistvqQxLB7Cy4xwYdxpbSOs9Q==}
+  /@types/node@18.18.3:
+    resolution: {integrity: sha512-0OVfGupTl3NBFr8+iXpfZ8NR7jfFO+P1Q+IO/q0wbo02wYkP5gy36phojeYWpLQ6WAMjl+VfmqUk2YbUfp0irA==}
     dev: true
 
   /@types/normalize-package-data@2.4.1:
@@ -1273,7 +1273,7 @@ packages:
       normalize-path: 3.0.0
       readdirp: 3.6.0
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: true
 
   /chownr@2.0.0:
@@ -1650,7 +1650,7 @@ packages:
       eslint: 8.50.0
       eslint-import-resolver-node: 0.3.7
       eslint-module-utils: 2.8.0(@typescript-eslint/parser@6.7.2)(eslint-import-resolver-node@0.3.7)(eslint@8.50.0)
-      get-tsconfig: 4.7.0
+      get-tsconfig: 4.7.2
       is-glob: 4.0.3
       minimatch: 3.1.2
       resolve: 1.22.3
@@ -2072,14 +2072,6 @@ packages:
   /fs.realpath@1.0.0:
     resolution: {integrity: sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==}
     dev: true
-
-  /fsevents@2.3.2:
-    resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
-    engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
-    os: [darwin]
-    requiresBuild: true
-    dev: true
-    optional: true
 
   /fsevents@2.3.3:
     resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}
@@ -3017,7 +3009,7 @@ packages:
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: true
 
   /run-parallel@1.2.0:
