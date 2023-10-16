@@ -32,8 +32,8 @@ devDependencies:
     specifier: ^1.0.3
     version: 1.0.3
   '@types/node':
-    specifier: ^18.18.4
-    version: 18.18.4
+    specifier: ^18.18.5
+    version: 18.18.5
   '@types/object-path':
     specifier: ^0.11.2
     version: 0.11.2
@@ -724,8 +724,8 @@ packages:
       '@types/unist': 2.0.6
     dev: true
 
-  /@types/node@18.18.4:
-    resolution: {integrity: sha512-t3rNFBgJRugIhackit2mVcLfF6IRc0JE4oeizPQL8Zrm8n2WY/0wOdpOPhdtG0V9Q2TlW/axbF1MJ6z+Yj/kKQ==}
+  /@types/node@18.18.5:
+    resolution: {integrity: sha512-4slmbtwV59ZxitY4ixUZdy1uRLf9eSIvBWPQxNjhHYWEtn0FryfKpyS2cvADYXTayWdKEIsJengncrVvkI4I6A==}
     dev: true
 
   /@types/normalize-package-data@2.4.1:
