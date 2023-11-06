@@ -35,7 +35,7 @@
     "object-path": "^0.11.8"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.43.1",
+    "@antfu/eslint-config": "^1.1.0",
     "@types/is-object": "^1.0.4",
     "@types/node": "^20.8.10",
     "@types/object-path": "^0.11.3",
