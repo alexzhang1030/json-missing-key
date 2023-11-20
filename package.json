@@ -24,7 +24,8 @@
     "prepare": "simple-git-hooks",
     "build": "tsup",
     "prepublishOnly": "tsup",
-    "release": "bumpp --commit \"chore: release v%s\" --push --tag && pnpm publish"
+    "release": "bumpp --commit \"chore: release v%s\" --push --tag && pnpm publish",
+    "lint": "eslint ."
   },
   "dependencies": {
     "chalk": "^5.3.0",

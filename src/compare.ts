@@ -4,7 +4,7 @@ import { highlight } from 'codechalk'
 import chalk from 'chalk'
 import type { Props } from './types'
 
-const traverse = (obj: Props['content'], callback: (path: string) => void, parentPath = '') => {
+function traverse(obj: Props['content'], callback: (path: string) => void, parentPath = '') {
   for (const key of Object.keys(obj)) {
     const path = parentPath ? `${parentPath}.${key}` : key
     callback(path)
@@ -13,7 +13,7 @@ const traverse = (obj: Props['content'], callback: (path: string) => void, paren
   }
 }
 
-const diff = async (base: Props['content'], compareWith: Props['content']) => {
+async function diff(base: Props['content'], compareWith: Props['content']) {
   const res = {}
   traverse(compareWith, (path) => {
     const s = objPath.get(base, path)
@@ -23,15 +23,15 @@ const diff = async (base: Props['content'], compareWith: Props['content']) => {
   return res
 }
 
-export const compare = async (fileA: Props, fileB: Props) => {
-  const aLeak = await diff(fileA.content, fileB.content)
-  const bLeak = await diff(fileB.content, fileA.content)
+export async function compare(fileA: Props, fileB: Props) {
+  const aResult = await diff(fileA.content, fileB.content)
+  const bResult = await diff(fileB.content, fileA.content)
 
   console.log(`${chalk.cyan(fileA.name)} missing keys:\n`)
-  const aOut = await highlight(JSON.stringify(aLeak, null, 2), 'json')
+  const aOut = await highlight(JSON.stringify(aResult, null, 2), 'json')
   console.log(`${aOut}\n\n`)
 
   console.log(`${chalk.cyan(fileB.name)} missing keys:\n`)
-  const bOut = await highlight(JSON.stringify(bLeak, null, 2), 'json')
+  const bOut = await highlight(JSON.stringify(bResult, null, 2), 'json')
   console.log(bOut)
 }

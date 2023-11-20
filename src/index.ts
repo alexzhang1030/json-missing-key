@@ -1,7 +1,8 @@
 import { readFile } from 'node:fs/promises'
 import { basename, resolve } from 'node:path'
-import meow from 'meow'
+import { cwd } from 'node:process'
 import consola from 'consola'
+import meow from 'meow'
 import { version } from '../package.json'
 import type { Props } from './types'
 import { compare } from './compare'
@@ -26,17 +27,16 @@ const cli = meow(`
     {
       "bar": "baz"
     }
-`,
-{
+`, {
   importMeta: import.meta,
 })
 
-const main = async (args: string[]) => {
+async function main(args: string[]) {
   if (args.length !== 2)
     throw new Error('Please provide two files to compare')
   const res = await Promise.allSettled([
-    readFile(resolve(process.cwd(), args[0]), 'utf-8'),
-    readFile(resolve(process.cwd(), args[1]), 'utf-8'),
+    readFile(resolve(cwd(), args[0]), 'utf-8'),
+    readFile(resolve(cwd(), args[1]), 'utf-8'),
   ])
   const [fileA, fileB] = res.map((item, index) => {
     if (item.status === 'rejected') {
