@@ -32,7 +32,7 @@
     "codechalk": "1.0.1-beta.2",
     "consola": "^3.2.3",
     "is-object": "^1.0.2",
-    "meow": "^12.1.1",
+    "meow": "^13.0.0",
     "object-path": "^0.11.8"
   },
   "devDependencies": {
