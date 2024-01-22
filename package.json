@@ -36,12 +36,12 @@
     "object-path": "^0.11.8"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.6.2",
+    "@antfu/eslint-config": "^2.6.3",
     "@types/is-object": "^1.0.5",
-    "@types/node": "^20.11.0",
+    "@types/node": "^20.11.5",
     "@types/object-path": "^0.11.4",
     "@types/traverse": "^0.6.36",
-    "bumpp": "^9.2.1",
+    "bumpp": "^9.3.0",
     "eslint": "^8.56.0",
     "lint-staged": "^15.2.0",
     "simple-git-hooks": "^2.9.0",
