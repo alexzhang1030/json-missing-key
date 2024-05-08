@@ -12,6 +12,9 @@ p i -g json-missing-key
 
 # then see help info
 json-missing-key --help
+
+# apply diffs
+json-missing-key ./a.json ./b.json --apply=all
 ```
 
 ## Screenshot

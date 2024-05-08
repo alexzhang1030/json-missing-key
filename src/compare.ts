@@ -34,4 +34,9 @@ export async function compare(fileA: Props, fileB: Props) {
   console.log(`${chalk.cyan(fileB.name)} missing keys:\n`)
   const bOut = await highlight(JSON.stringify(bResult, null, 2), 'json')
   console.log(bOut)
+
+  return {
+    aResult,
+    bResult,
+  }
 }
