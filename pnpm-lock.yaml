@@ -32,8 +32,8 @@ devDependencies:
     specifier: ^1.0.5
     version: 1.0.5
   '@types/node':
-    specifier: ^20.16.0
-    version: 20.16.0
+    specifier: ^20.16.1
+    version: 20.16.1
   '@types/object-path':
     specifier: ^0.11.4
     version: 0.11.4
@@ -855,8 +855,8 @@ packages:
       '@types/unist': 2.0.6
     dev: true
 
-  /@types/node@20.16.0:
-    resolution: {integrity: sha512-vDxceJcoZhIVh67S568bm1UGZO0DX0hpplJZxzeXMKwIPLn190ec5RRxQ69BKhX44SUGIxxgMdDY557lGLKprQ==}
+  /@types/node@20.16.1:
+    resolution: {integrity: sha512-zJDo7wEadFtSyNz5QITDfRcrhqDvQI1xQNQ0VoizPjM/dVAODqqIUWbJPkvsxmTI0MYRGRikcdjMPhOssnPejQ==}
     dependencies:
       undici-types: 6.19.6
     dev: true
