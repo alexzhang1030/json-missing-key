@@ -38,14 +38,14 @@
   "devDependencies": {
     "@antfu/eslint-config": "^6.2.0",
     "@types/is-object": "^1.0.5",
-    "@types/node": "^24.10.0",
+    "@types/node": "^24.10.1",
     "@types/object-path": "^0.11.4",
     "@types/traverse": "^0.6.37",
     "bumpp": "^10.3.1",
     "eslint": "^9.39.1",
     "lint-staged": "^16.2.6",
     "simple-git-hooks": "^2.13.1",
-    "tsup": "^8.5.0",
+    "tsup": "^8.5.1",
     "tsx": "^4.20.6",
     "typescript": "^5.9.3"
   },
