@@ -32,8 +32,8 @@ devDependencies:
     specifier: ^1.0.5
     version: 1.0.5
   '@types/node':
-    specifier: ^24.10.4
-    version: 24.10.4
+    specifier: ^24.10.7
+    version: 24.10.7
   '@types/object-path':
     specifier: ^0.11.4
     version: 0.11.4
@@ -875,8 +875,8 @@ packages:
     resolution: {integrity: sha512-nG96G3Wp6acyAgJqGasjODb+acrI7KltPiRxzHPXnP3NgI28bpQDRv53olbqGXbfcgF5aiiHmO3xpwEpS5Ld9g==}
     dev: true
 
-  /@types/node@24.10.4:
-    resolution: {integrity: sha512-vnDVpYPMzs4wunl27jHrfmwojOGKya0xyM3sH+UE5iv5uPS6vX7UIoh6m+vQc5LGBq52HBKPIn/zcSZVzeDEZg==}
+  /@types/node@24.10.7:
+    resolution: {integrity: sha512-+054pVMzVTmRQV8BhpGv3UyfZ2Llgl8rdpDTon+cUH9+na0ncBVXj3wTUKh14+Kiz18ziM3b4ikpP5/Pc0rQEQ==}
     dependencies:
       undici-types: 7.16.0
     dev: true
