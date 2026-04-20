@@ -42,12 +42,12 @@
     "@types/object-path": "^0.11.4",
     "@types/traverse": "^0.6.37",
     "bumpp": "^11.0.1",
-    "eslint": "^10.2.0",
+    "eslint": "^10.2.1",
     "lint-staged": "^16.4.0",
     "simple-git-hooks": "^2.13.1",
     "tsup": "^8.5.1",
     "tsx": "^4.21.0",
-    "typescript": "^6.0.2"
+    "typescript": "^6.0.3"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm exec lint-staged"
