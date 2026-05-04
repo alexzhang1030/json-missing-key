@@ -42,7 +42,7 @@
     "@types/object-path": "^0.11.4",
     "@types/traverse": "^0.6.37",
     "bumpp": "^11.0.1",
-    "eslint": "^10.2.1",
+    "eslint": "^10.3.0",
     "lint-staged": "^16.4.0",
     "simple-git-hooks": "^2.13.1",
     "tsup": "^8.5.1",
