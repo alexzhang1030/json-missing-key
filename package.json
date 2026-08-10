@@ -1,7 +1,7 @@
 {
   "name": "json-missing-key",
   "type": "module",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Compares two json files, shows missing keys.",
   "author": "alexzhang1030",
   "license": "MIT",
@@ -47,7 +47,7 @@
     "simple-git-hooks": "^2.13.1",
     "tsup": "^8.5.1",
     "tsx": "^4.23.11",
-    "typescript": "^7.0.2"
+    "typescript": "^5.9.3"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm exec lint-staged"
