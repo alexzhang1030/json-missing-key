@@ -62,5 +62,13 @@
     "rules": {
       "no-console": "off"
     }
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@swc/core",
+      "esbuild",
+      "simple-git-hooks",
+      "unrs-resolver"
+    ]
   }
 }
