@@ -41,7 +41,7 @@
     "@types/node": "^24.13.3",
     "@types/object-path": "^0.11.4",
     "@types/traverse": "^0.6.37",
-    "bumpp": "^12.2.0",
+    "bumpp": "^12.2.1",
     "eslint": "^10.8.1",
     "lint-staged": "^17.3.0",
     "simple-git-hooks": "^2.13.1",
