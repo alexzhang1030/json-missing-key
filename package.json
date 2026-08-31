@@ -41,12 +41,12 @@
     "@types/node": "^24.13.3",
     "@types/object-path": "^0.11.4",
     "@types/traverse": "^0.6.37",
-    "bumpp": "^12.2.1",
-    "eslint": "^10.9.0",
-    "lint-staged": "^17.3.0",
-    "simple-git-hooks": "^2.13.1",
+    "bumpp": "^12.2.2",
+    "eslint": "^10.9.1",
+    "lint-staged": "^17.4.1",
+    "simple-git-hooks": "^2.14.0",
     "tsup": "^8.5.1",
-    "tsx": "^4.23.12",
+    "tsx": "^4.23.13",
     "typescript": "^5.9.3"
   },
   "simple-git-hooks": {
