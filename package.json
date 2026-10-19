@@ -45,7 +45,7 @@
     "eslint": "^10.13.0",
     "lint-staged": "^17.6.0",
     "simple-git-hooks": "^2.14.0",
-    "tsup": "^8.5.1",
+    "tsup": "^9.0.0",
     "tsx": "^4.23.15",
     "typescript": "^5.9.3"
   },
